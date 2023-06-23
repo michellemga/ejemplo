@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica 8. Páginas de consultas.</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+  <body>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+   <div class="container-fluid">
+    <!-- BARRA NAVEGACIÓN -->
+    <div class="bg-light">
+		<nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Practica 8. </a>
+                <button type="button"
+                    class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#MenuNavegacion">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+			<div id="MenuNavegacion" class="collapse navbar-collapse">
+				<ul class="navbar-nav ms-3">
+					<li class="nav-item">
+                        <a class="nav-link" href="index.html">Alta</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="./html/baja.html">Baja</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="/html/consulta2.html">Consulta</a>
+                    </li>
+                    
+				</ul>
+                <ul class="navbar-nav ms-3">
+					<li class="nav-item">
+                        <a class="nav-link text-nowrap" href="#">Iniciar sesión</a>
+                    </li>
+                </ul>
+			</div>
+		</nav>
+	</div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica7</title>
+</head>
+<body>
+
+    <br>
+
+    
+    <ul class="ad">
+        <li><h2 >integrantes:</h2></li>
+        <li><h3 >Mateo García Alejandra Michelle</h3></li>
+        <li><h3 >Pineda Cuellar Guillermo</h3></li>
+    </ul>
+    <br>
+
+    <form class="forma">
+        <legend><h2><b>Registro de un incidente vial en la CDMX</b></h2></legend>
+        <br>
+
+        <label>ID:</label>
+        <input type="text" id="id">
+        <br> <br>
+    
+        <label>Fecha: </label>
+        <input type="date" id="fecha">
+        <br> <br>
+    
+        <label>Descripción: </label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10">Describa su incidente</textarea>
+        <br> <br>
+
+        <label>Delegación:</label>
+        <select>
+            <option value="seleccion">Selecciona una delegación</option>
+            <option value="Álvaro Obregón">Álvaro Obregón</option>
+            <option value="Azcapotzalco">Azcapotzalco</option>
+            <option value="Benito Juárez">Benito Juárez</option>
+            <option value="Coyoacán">Coyoacán</option>
+            <option value="Cuajimalpa de Morelos">Cuajimalpa de Morelos</option>
+            <option value="Cuauhtémoc">Cuauhtémoc</option>
+            <option value="Gustavo A. Madero">Gustavo A. Madero</option>
+            <option value="Iztacalco">Iztacalco</option>
+            <option value="iztapalapa">iztapalapa</option>
+            <option value="Magdalena Contreras">Magdalena Contreras</option>
+            <option value="Miguel Hidalgo">Miguel Hidalgo</option>
+            <option value="Milpa Alta">Milpa Alta</option>
+            <option value="Tláhuac">Tláhuac</option>
+            <option value="Tlalpan">Tlalpan</option>
+            <option value="Venustiano Carranza">Venustiano Carranza</option>
+            <option value="Xochimilco">Xochimilco</option>
+        </select>
+        <br> <br>
+
+        <label>Tipo de incidente</label>
+        <select>
+            <option value="seleccionIncidente">Seleccione un tipo de incidente</option>
+            <option value="Salidas de la via">Salidas de la vía, vuelco y pérdida de control.</option>
+            <option value="Arrollamientos">Arrollamientos (atropellamientos).</option>
+            <option value="Colisiones">Colisiones (choques) entre dos vehículos.</option>
+            <option value="Colisiones múltiples">Colisiones múltiples o en cadena</option>
+            <option value="Caída del ocupante">Caída del ocupante</option>
+        </select>
+        <br> <br>
+
+        <div class="a"><input type="submit">
+        <input type="reset"> </div>
+</form>
+    
+</body>
+</html>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
